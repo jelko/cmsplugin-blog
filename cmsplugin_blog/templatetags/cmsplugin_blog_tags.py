@@ -2,6 +2,7 @@ import copy, datetime
 from django.conf import settings
 from django import template
 from django.contrib.auth import models as auth_models
+from django.utils import timezone
 
 from tagging.models import Tag
 
@@ -28,7 +29,7 @@ def render_tag_links(context):
     request = context["request"]
     language = get_language_from_request(request)
     kw = get_translation_filter_language(Entry, language)
-    filters = dict(is_published=True, pub_date__lte=datetime.datetime.now(), **kw)
+    filters = dict(is_published=True, pub_date__lte=timezone.now(), **kw)
     return {
         'tags': Tag.objects.usage_for_model(Entry, filters=filters)
     }

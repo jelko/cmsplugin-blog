@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: cmsplugin-blog\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-28 21:47+0200\n"
-"PO-Revision-Date: 2011-05-19 14:42+0000\n"
-"Last-Translator: raphaa <webmaster@raphaa.de>\n"
+"PO-Revision-Date: 2012-12-03 22:55+0100\n"
+"Last-Translator: Jelko Arnds <j.arnds@dienetzgestalter.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
@@ -27,7 +27,7 @@ msgstr "Titel"
 
 #: cms_app.py:6
 msgid "Blog Apphook"
-msgstr "Blog-Applikation"
+msgstr "Neuigkeiten"
 
 #: cms_plugins.py:12 templates/cmsplugin_blog/entry_archive.html:5
 msgid "Latest entries"
@@ -36,12 +36,12 @@ msgstr "Die neuesten Einträge"
 #: feeds.py:45 feeds.py:56
 #, python-format
 msgid "%(site)s blog entries"
-msgstr "%(site)s Blog-Einträge"
+msgstr "%(site)s Neuigkeiten"
 
 #: feeds.py:46 feeds.py:57
 #, python-format
 msgid "%(site)s blog entries in %(lang)s"
-msgstr "%(site)s Blog-Einträge in %(lang)s"
+msgstr "%(site)s Neuigkeiten in %(lang)s"
 
 #: feeds.py:85
 #, python-format
@@ -73,11 +73,11 @@ msgstr "Veröffentlicht am"
 
 #: models.py:80 models.py:87
 msgid "entry"
-msgstr "Eintrag"
+msgstr "Neuigkeit"
 
 #: models.py:81
 msgid "entries"
-msgstr "Einträge"
+msgstr "Neuigkeiten"
 
 #: models.py:88
 msgid "language"
