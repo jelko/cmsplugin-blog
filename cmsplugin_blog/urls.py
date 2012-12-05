@@ -133,5 +133,4 @@ urlpatterns = patterns('',
     (r'^feed/atom/any/$', EntriesFeed(generator=Atom1Feed), {'any_language': True}, 'blog_atom_any'),
 
     (r'^feed/atom/$', EntriesFeed(generator=Atom1Feed), {}, 'blog_atom'),
-
 )
